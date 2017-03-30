@@ -2,7 +2,7 @@
 
 Collections of simple yet useful haskell programs for  beginners.
 
-### Markdown
+### Code takes input as string and splits it into substrings as per pattern
 import Data.List  
 import System.IO  
 
