@@ -2,7 +2,7 @@
 
 Collections of simple yet useful haskell programs for  beginners.
 
-### Code takes input as string and splits it into substrings as per pattern
+### Code takes input as string and splits it into substrings based on given character
 import Data.List  
 import System.IO  
 
