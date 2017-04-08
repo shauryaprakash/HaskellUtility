@@ -38,6 +38,20 @@ getDiretory  = do
 showFileContent = do 
                  putStrLn "-------contents starts here-------"
                  readFile "aa.txt" >>= putStr
+                 
+---list length evaluator 
+
+lengthEvaluator :: [a]->Int
+lengthEvaluator str= length str 
+
+---find the first duplicate element in list
+
+firstDuplicateFinder :: Eq a=>[a]->[a]
+firstDuplicateFinder (x:xs) =
+     if x== head(xs) 
+         then x:[] 
+      else 
+           firstDuplicateFinder xs 
                  putStrLn "-------contents ends here-------"
                  
 fileHandleMonad = do 
